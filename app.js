@@ -143,6 +143,7 @@ function cargarCarritoDesdeStorage() {
     if (carritoGuardado) {
         carrito = JSON.parse(carritoGuardado);
         actualizarContadorCarrito();
+        actualizarContenidoCarrito();
     }
 }
 

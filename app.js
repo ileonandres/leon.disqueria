@@ -39,7 +39,7 @@ async function cargarProductos() {
         const data = await response.json();
         
         const productos = data.results.map((album, index) => ({
-            id: index + 1,
+            id: album.collectionId,
             nombre: album.collectionName,
             artista: album.artistName,
             descripcion: `Álbum de ${album.artistName}`,

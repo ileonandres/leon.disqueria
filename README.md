@@ -1,4 +1,4 @@
-# León Disquería - Catálogo Musical Interactivo 🎵
+# León Disquería - Catálogo musical interactivo 🎵
 
 Aplicación web para gestión de discos que consume la [API de Discogs] mediante Fetch API.
 
